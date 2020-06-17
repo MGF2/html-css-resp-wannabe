@@ -88,18 +88,18 @@ img {
   #lezioni .row>.right {
     width: 100%;
     float: none;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
     width: 100%;
     float: none;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     background-color: #a2b2c7;
   }
 
@@ -109,5 +109,15 @@ img {
 
   #lezioni .row img {
    width: 50%;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 45px;
+  }
+
+  hr {
+    margin-top: 20px;
   }
 }
