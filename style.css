@@ -72,7 +72,7 @@ img {
   clear: both;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
 
   * {
     font-size: 1.1rem;
@@ -108,7 +108,7 @@ img {
   }
 
   #lezioni .row img {
-   width: 50%;
+   width: 55%;
   }
 
   #why .row>.first,
