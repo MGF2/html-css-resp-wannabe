@@ -71,3 +71,43 @@ img {
 .clear {
   clear: both;
 }
+
+@media screen and (max-width: 480px) {
+
+  * {
+    font-size: 1.1rem;
+  }
+
+  .row {
+    width: 100%;
+    margin: 0 auto;
+
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    background-color: #a2b2c7;
+  }
+
+  h3 {
+    font-size: 1.7rem;
+  }
+
+  #lezioni .row img {
+   width: 50%;
+  }
+}
